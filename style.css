@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Staatliches', sans-serif;*/ 
+
+  background: #EFEFEF;
+  
+  height: 100vh;
+}
+body::before{
+  content: '';
+  width: 100%;
+  height: 436px;
+  background: #535971;
+
+  position: absolute;
+  z-index: -1;
+  /*top: 0;
+  left: 0; para garantir que ele ficará na posição*/
+}
+.app{
+  width: 750px;
+  margin: 0 auto;
+
+  border: 1px solid;
+}
+header > h1{
+  font-family: 'Staatliches', sans-serif;
+  color: #FFF;
+  font-size: 48px;
+
+  margin: 140px 0 18px;
+}
+header > p{
+  color: #FFF;
+  font-size: 20px;
+}
