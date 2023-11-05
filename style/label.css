@@ -1,0 +1,15 @@
+.input-wrapper > label{
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px; 
+
+  margin-bottom: 8px;
+}
+label > span{
+  color: #C1BCCC;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 20px; /* 166.667% */
+
+  margin-left: 9px;
+}
