@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Two Forms</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style/global.css">
 
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
@@ -19,6 +19,34 @@
         <p>Preencha o formulário abaixo para <br>
           agendar a sua mentoria</p>
       </header>
+
+      <form>
+        <fieldset>
+          <div class="fieldset-wrapper one">
+            <legend>Informações pessoais</legend>
+            <div class="two-coluns">
+              <div class="input-wrapper">
+                <label for="user-name">Nome</label>
+                <input type="text" name="." id="user-name">
+              </div>
+              <div class="input-wrapper">
+                <label for="user-surname">Sobrenome</label>
+                <input type="text" name="." id="user-surname">
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">Email <span>(digite um email válido)</span></label>
+              <input type="email" name="." id="mail">
+            </div>
+            <div class="input-wrapper">
+              <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+              <input type="password" name="." id="password">
+            </div>
+          </div>
+          
+        </fieldset>
+      </form>
     </div>
   </body>
 </html>
