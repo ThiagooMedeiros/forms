@@ -1,0 +1,11 @@
+header > h1{
+  font-family: 'Staatliches', sans-serif;
+  color: #FFF;
+  font-size: 48px;
+
+  margin: 126px 0 18px;
+}
+header > p{
+  color: #FFF;
+  font-size: 20px;
+}
