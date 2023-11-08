@@ -30,9 +30,9 @@ body::before{
 .app{
   width: 750px;
   margin: 0 auto;
+
+  padding-bottom: 100px;
 }
-
-
 
 
 

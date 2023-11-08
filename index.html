@@ -22,7 +22,7 @@
 
       <form>
         <fieldset>
-          <div class="fieldset-wrapper one">
+          <div class="fieldset-wrapper">
             <legend>Informações pessoais</legend>
             <div class="two-coluns">
               <div class="input-wrapper">
@@ -45,6 +45,51 @@
             </div>
           </div>
           
+          <div class="fieldset-wrapper">
+            <legend>Informações do mentor</legend>
+           
+            <div class="input-wrapper">
+              <label for="mentor-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+              <input type="text" name="." id="mentor-name">
+            </div>
+          </div>
+
+          <div class="fieldset-wrapper">
+            <legend>Seus horários disponíveis</legend>
+            <h3>Primeira mentoria</h3>
+            <div class="three-coluns">
+              <div class="input-wrapper one">
+                <label for="date-first">Data<span>(DD/MM/AAAA)</span></label>
+                <input type="date" name="." id="date-first">
+              </div>
+              <div class="input-wrapper">
+                <label for="time-initial-first">Das</label>
+                <input type="time" name="." id="time-initial-first">
+              </div>
+              <div class="input-wrapper">
+                <label for="time-finish-first">Até</label>
+                <input type="time" name="." id="time-finish-first">
+              </div>
+            </div>
+            
+            <h3>Segunda mentoria</h3>
+            <div class="three-coluns">
+              <div class="input-wrapper one">
+                <label for="date">Data<span>(DD/MM/AAAA)</span></label>
+                <input type="date" name="." id="date">
+              </div>
+              <div class="input-wrapper">
+                <label for="time-initial">Das</label>
+                <input type="time" name="." id="time-initial">
+              </div>
+              <div class="input-wrapper">
+                <label for="time-finish">Até</label>
+                <input type="time" name="." id="time-finish">
+              </div>
+            </div>
+
+            
+          </div>
         </fieldset>
       </form>
     </div>

@@ -17,3 +17,14 @@
   grid-template-columns: 1fr 1fr;
   gap: 22px;
 }
+.three-coluns{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  column-gap: 10px;
+}
+.three-coluns > .one{
+  margin-right: 22px;
+}
+#date, #time-initial, #time-finish{
+  margin-bottom: 0;
+}
