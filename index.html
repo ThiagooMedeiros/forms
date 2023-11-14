@@ -20,28 +20,28 @@
           agendar a sua mentoria</p>
       </header>
 
-      <form>
+      <form id="form-page">
         <fieldset>
           <div class="fieldset-wrapper">
             <legend>Informações pessoais</legend>
             <div class="two-coluns">
               <div class="input-wrapper">
                 <label for="user-name">Nome</label>
-                <input type="text" name="." id="user-name">
+                <input required type="text" name="." id="user-name">
               </div>
               <div class="input-wrapper">
                 <label for="user-surname">Sobrenome</label>
-                <input type="text" name="." id="user-surname">
+                <input required type="text" name="." id="user-surname">
               </div>
             </div>
 
             <div class="input-wrapper">
               <label for="mail">Email <span>(digite um email válido)</span></label>
-              <input type="email" name="." id="mail">
+              <input required type="email" name="." id="mail">
             </div>
             <div class="input-wrapper">
               <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
-              <input type="password" name="." id="password">
+              <input required type="password" name="." id="password" minlength="6">
             </div>
           </div>
           
@@ -50,7 +50,7 @@
            
             <div class="input-wrapper">
               <label for="mentor-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-              <input type="text" name="." id="mentor-name">
+              <input required type="text" name="." id="mentor-name">
             </div>
           </div>
 
@@ -60,15 +60,15 @@
             <div class="three-coluns">
               <div class="input-wrapper one">
                 <label for="date-first">Data<span>(DD/MM/AAAA)</span></label>
-                <input type="date" name="." id="date-first">
+                <input required type="date" name="." id="date-first">
               </div>
               <div class="input-wrapper">
                 <label for="time-initial-first">Das</label>
-                <input type="time" name="." id="time-initial-first">
+                <input required type="time" name="." id="time-initial-first">
               </div>
               <div class="input-wrapper">
                 <label for="time-finish-first">Até</label>
-                <input type="time" name="." id="time-finish-first">
+                <input required type="time" name="." id="time-finish-first">
               </div>
             </div>
             
@@ -76,15 +76,15 @@
             <div class="three-coluns">
               <div class="input-wrapper one">
                 <label for="date">Data<span>(DD/MM/AAAA)</span></label>
-                <input type="date" name="." id="date">
+                <input required type="date" name="." id="date">
               </div>
               <div class="input-wrapper">
                 <label for="time-initial">Das</label>
-                <input type="time" name="." id="time-initial">
+                <input required type="time" name="." id="time-initial">
               </div>
               <div class="input-wrapper">
                 <label for="time-finish">Até</label>
-                <input type="time" name="." id="time-finish">
+                <input required type="time" name="." id="time-finish">
               </div>
             </div>
 
@@ -92,6 +92,11 @@
           </div>
         </fieldset>
       </form>
+      
+      <footer>
+        <button form="form-page" type="submit">Salvar</button>
+      </footer>
+
     </div>
   </body>
 </html>
